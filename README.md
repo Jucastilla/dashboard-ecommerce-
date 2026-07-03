@@ -94,6 +94,8 @@ Entre eles:
 
 ## Arquivos do Projeto
 
-- 📄 Dashboard em Dash (`app.py`)
-- 📄 Notebook de Desenvolvimento (`tarefa_pratica.ipynb`)
-- 📄 Base de Dados (`ecommerce_estatistica.csv`)
+## Arquivos do Projeto
+
+- 📄 **[Dashboard em Dash](app.py)**
+- 📄 **[Análise Exploratória](tarefa_pratica.ipynb)**
+- 📄 **[Base de Dados](ecommerce_estatistica.csv)**
