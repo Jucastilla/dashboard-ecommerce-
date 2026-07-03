@@ -2,38 +2,54 @@
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvido utilizando Python, Pandas, Plotly e Dash com o objetivo de transformar uma análise exploratória de dados em uma aplicação web interativa.
+Este projeto foi desenvolvido utilizando **Python, Pandas, Plotly e Dash** com o objetivo de transformar uma análise exploratória de dados em uma aplicação web interativa.
 
-O trabalho contemplou desde o carregamento e preparação do conjunto de dados até a construção de um dashboard completo contendo indicadores, gráficos interativos e insights para apoio à tomada de decisão.
+O trabalho contemplou desde a leitura do conjunto de dados até a construção de um dashboard responsivo contendo indicadores, gráficos interativos e insights para apoio à tomada de decisão.
 
 
 ## Etapas Desenvolvidas
 
-### 1. Carregamento e Preparação dos Dados
+### 1. Carregamento dos Dados
 
-Foi realizada a leitura do arquivo **ecommerce_estatistica.csv** utilizando Pandas para construção do DataFrame principal da aplicação.
+Foi realizada a leitura do arquivo **ecommerce_estatistica.csv** utilizando **Pandas** para construção do DataFrame principal da aplicação.
 
-Também foram realizadas etapas de preparação dos dados, incluindo:
+As atividades envolveram:
 
 - Leitura do arquivo CSV;
-- Remoção de colunas desnecessárias;
-- Organização das variáveis utilizadas na análise;
-- Centralização do carregamento dos dados para reutilização em toda a aplicação.
+- Estruturação do DataFrame para utilização nas análises;
+- Seleção das variáveis utilizadas em cada visualização;
+- Geração de estatísticas descritivas para os indicadores;
+- Organização das informações para responder perguntas de negócio por meio de gráficos e métricas.
+  
+
+### 2. Análise Exploratória dos Dados
+
+Foi realizada uma análise exploratória com o objetivo de identificar padrões, relações e características relevantes presentes no conjunto de dados.
+
+As análises permitiram responder perguntas de negócio como:
+
+- Como as notas dos produtos estão distribuídas?
+- Existe relação entre preço e avaliação?
+- Quais marcas possuem maior quantidade de produtos?
+- Como os produtos estão distribuídos por gênero?
+- Existe correlação entre as variáveis analisadas?
+- Como se comporta a distribuição das notas dos produtos?
 
 
-### 2. Desenvolvimento da Aplicação Web
+### 3. Desenvolvimento do Dashboard
 
-Foi desenvolvida uma aplicação utilizando **Dash**, permitindo que o usuário visualize todas as análises diretamente pelo navegador, sem necessidade de executar comandos em Python.
+Foi desenvolvida uma aplicação utilizando **Dash**, permitindo que todas as análises fossem disponibilizadas em uma interface web interativa.
 
-A estrutura da aplicação contempla:
+A aplicação contempla:
 
 - Layout responsivo;
 - Cards com indicadores principais;
 - Organização dos gráficos em grade;
-- Área exclusiva para apresentação dos principais insights obtidos na análise.
+- Navegação diretamente pelo navegador;
+- Seção dedicada aos principais insights encontrados durante a análise.
 
 
-### 3. Indicadores Estatísticos
+### 4. Indicadores Estatísticos
 
 Foram calculados indicadores descritivos para fornecer uma visão geral do conjunto de dados.
 
@@ -45,9 +61,9 @@ Entre eles:
 - Desconto médio.
 
 
-### 4. Visualização dos Dados
+### 5. Visualizações Interativas
 
-Foram desenvolvidos diversos gráficos interativos utilizando Plotly para facilitar a análise exploratória.
+Foram desenvolvidos gráficos utilizando **Plotly** para facilitar a interpretação dos dados.
 
 As visualizações incluem:
 
@@ -57,20 +73,20 @@ As visualizações incluem:
 - Distribuição dos produtos por gênero;
 - Mapa de calor das correlações;
 - Curva de densidade das notas;
-- Regressão entre preço e nota dos produtos.
+- Gráfico de regressão entre preço e nota dos produtos.
 
 
-### 5. Geração de Insights
+### 6. Geração de Insights
 
-Ao final do dashboard foi adicionada uma seção contendo os principais insights obtidos durante a análise.
+Ao final do dashboard foi apresentada uma síntese dos principais resultados obtidos durante a análise.
 
 Entre eles:
 
-- Predominância de produtos do público masculino;
-- Forte correlação entre número de avaliações e quantidade vendida;
-- Preço com baixa influência sobre a nota dos produtos;
-- Concentração das avaliações entre 4,3 e 4,8 estrelas;
-- Marcas com maior quantidade de produtos cadastrados.
+- Predominância de produtos voltados ao público masculino;
+- Forte correlação entre quantidade vendida e número de avaliações;
+- Baixa relação entre preço e nota dos produtos;
+- Concentração das avaliações entre aproximadamente 4,2 e 4,9 estrelas;
+- Identificação das marcas com maior número de produtos cadastrados.
 
 
 ## Habilidades Demonstradas
@@ -80,9 +96,8 @@ Entre eles:
 - Plotly
 - Dash
 - Visualização de Dados
-- Data Analytics
-- Estatística Descritiva
 - Análise Exploratória de Dados (EDA)
+- Estatística Descritiva
 - Desenvolvimento de Dashboards
 - Storytelling com Dados
 - Business Intelligence
@@ -91,8 +106,6 @@ Entre eles:
 
 ## Arquivos do Projeto
 
-📄 Dashboard em Dash (`app.py`)
-
-📄 Base de Dados (`ecommerce_estatistica.csv`)
-
-📄 Notebook de Desenvolvimento (`tarefa_pratica.ipynb`)
+- 📄 Dashboard em Dash (`app.py`)
+- 📄 Notebook de Desenvolvimento (`tarefa_pratica.ipynb`)
+- 📄 Base de Dados (`ecommerce_estatistica.csv`)
