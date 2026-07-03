@@ -4,7 +4,7 @@
 
 Este projeto foi desenvolvido utilizando Python, Pandas, Plotly e Dash com o objetivo de transformar uma análise exploratória de dados em uma aplicação web interativa.
 
-O trabalho contemplou desde o carregamento e preparação do conjunto de dados até a construção de um dashboard completo contendo indicadores, gráficos interativos e insights estatísticos para apoio à tomada de decisão.
+O trabalho contemplou desde o carregamento e preparação do conjunto de dados até a construção de um dashboard completo contendo indicadores, gráficos interativos e insights para apoio à tomada de decisão.
 
 
 ## Etapas Desenvolvidas
