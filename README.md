@@ -1,4 +1,4 @@
-# Dashboard para Análise de Dados de E-commerce
+# Dashboard Interativo para Análise de Dados de E-commerce
 
 ## Sobre o Projeto
 
