@@ -18,7 +18,7 @@ As atividades envolveram:
 - Leitura do arquivo CSV;
 - Estruturação do DataFrame para utilização nas análises;
 - Seleção das variáveis utilizadas em cada visualização;
-- Geração de estatísticas descritivas para os indicadores;
+- Cálculo dos indicadores estatísticos utilizados nos cards do dashboard;
 - Organização das informações para responder perguntas de negócio por meio de gráficos e métricas.
   
 
@@ -48,20 +48,7 @@ A aplicação contempla:
 - Navegação diretamente pelo navegador;
 - Seção dedicada aos principais insights encontrados durante a análise.
 
-
-### 4. Indicadores Estatísticos
-
-Foram calculados indicadores descritivos para fornecer uma visão geral do conjunto de dados.
-
-Entre eles:
-
-- Total de produtos;
-- Nota média;
-- Preço médio;
-- Desconto médio.
-
-
-### 5. Visualizações Interativas
+### 4. Visualizações Interativas
 
 Foram desenvolvidos gráficos utilizando **Plotly** para facilitar a interpretação dos dados.
 
@@ -76,7 +63,7 @@ As visualizações incluem:
 - Gráfico de regressão entre preço e nota dos produtos.
 
 
-### 6. Geração de Insights
+### 5. Geração de Insights
 
 Ao final do dashboard foi apresentada uma síntese dos principais resultados obtidos durante a análise.
 
