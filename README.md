@@ -29,11 +29,12 @@ Foi realizada uma análise exploratória com o objetivo de identificar padrões,
 As análises permitiram responder perguntas de negócio como:
 
 - Como as notas dos produtos estão distribuídas?
-- Existe relação entre preço e avaliação?
-- Quais marcas possuem maior quantidade de produtos?
+- Qual é a relação entre o número de avaliações e a nota dos produtos?
+- Quais marcas possuem maior quantidade de produtos cadastrados?
 - Como os produtos estão distribuídos por gênero?
-- Existe correlação entre as variáveis analisadas?
-- Como se comporta a distribuição das notas dos produtos?
+- Quais variáveis apresentam maior correlação entre si?
+- Existe relação entre o preço e a nota dos produtos?
+- Qual é a concentração predominante das avaliações dos produtos?
 
 
 ### 3. Desenvolvimento do Dashboard
