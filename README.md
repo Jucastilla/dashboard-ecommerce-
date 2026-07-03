@@ -6,7 +6,6 @@ Este projeto foi desenvolvido utilizando Python, Pandas, Plotly e Dash com o obj
 
 O trabalho contemplou desde o carregamento e preparação do conjunto de dados até a construção de um dashboard completo contendo indicadores, gráficos interativos e insights estatísticos para apoio à tomada de decisão.
 
----
 
 ## Etapas Desenvolvidas
 
@@ -21,7 +20,6 @@ Também foram realizadas etapas de preparação dos dados, incluindo:
 - Organização das variáveis utilizadas na análise;
 - Centralização do carregamento dos dados para reutilização em toda a aplicação.
 
----
 
 ### 2. Desenvolvimento da Aplicação Web
 
@@ -34,7 +32,6 @@ A estrutura da aplicação contempla:
 - Organização dos gráficos em grade;
 - Área exclusiva para apresentação dos principais insights obtidos na análise.
 
----
 
 ### 3. Indicadores Estatísticos
 
@@ -47,7 +44,6 @@ Entre eles:
 - Preço médio;
 - Desconto médio.
 
----
 
 ### 4. Visualização dos Dados
 
@@ -63,7 +59,6 @@ As visualizações incluem:
 - Curva de densidade das notas;
 - Regressão entre preço e nota dos produtos.
 
----
 
 ### 5. Geração de Insights
 
@@ -77,7 +72,6 @@ Entre eles:
 - Concentração das avaliações entre 4,3 e 4,8 estrelas;
 - Marcas com maior quantidade de produtos cadastrados.
 
----
 
 ## Habilidades Demonstradas
 
@@ -94,7 +88,6 @@ Entre eles:
 - Business Intelligence
 - Manipulação de Dados
 
----
 
 ## Arquivos do Projeto
 
