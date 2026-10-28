@@ -1,28 +1,26 @@
 # Análise Exploratória de E-commerce
 
-## Sobre o Projeto
+## Contexto
 
-Este projeto foi desenvolvido durante a formação em **Análise de Dados da EBAC**, com o objetivo de realizar uma análise exploratória de dados de produtos de e-commerce por meio de diferentes técnicas de visualização.
+Este projeto foi desenvolvido durante a formação em **Análise de Dados da EBAC**, utilizando uma base de produtos de e-commerce disponibilizada para a atividade.
 
-A análise foi desenvolvida em Python utilizando **Pandas, Matplotlib e Seaborn**, permitindo explorar distribuições, relações entre variáveis, correlações e características presentes no conjunto de dados.
+A análise foi realizada em **Python**, com **Pandas** para exploração dos dados e cálculo de estatísticas descritivas, além de **Matplotlib** e **Seaborn** para construção das visualizações.
 
-A partir da análise desenvolvida no notebook, o projeto também foi ampliado com a construção de um dashboard utilizando **Dash e Plotly**, reunindo os principais indicadores, visualizações e resultados em uma aplicação web.
+A partir da análise desenvolvida no notebook, o projeto foi ampliado com um dashboard utilizando **Dash e Plotly**, reunindo indicadores, gráficos e resultados em uma aplicação web.
 
 ## Objetivo
 
-Explorar os dados de produtos de e-commerce por meio de estatísticas descritivas e diferentes tipos de visualização, buscando identificar padrões, distribuições e relações entre as variáveis disponíveis.
+Explorar os dados de produtos de e-commerce por meio de estatísticas descritivas e visualizações, buscando identificar padrões, distribuições e relações entre as variáveis disponíveis.
 
-O projeto também busca apresentar os resultados de forma visual e organizada por meio de um dashboard desenvolvido em Python.
+Apresentar os indicadores e resultados da análise em um dashboard desenvolvido em Python.
 
-## Etapas Desenvolvidas
+## Desenvolvimento
 
-### 1. Fonte e Exploração dos Dados
+### Fonte e Exploração dos Dados
 
-Para o desenvolvimento do projeto, foi utilizado o arquivo `ecommerce_estatistica.csv`, disponibilizado como base para a atividade.
+Foi utilizado o arquivo `ecommerce_estatistica.csv`, disponibilizado como base para a atividade.
 
-Os dados foram carregados em um DataFrame utilizando **Pandas** e utilizados ao longo das diferentes etapas da análise.
-
-Entre as variáveis exploradas estão informações relacionadas a:
+Os dados foram carregados em um DataFrame com **Pandas**. Entre as variáveis exploradas estão:
 
 - Notas dos produtos;
 - Preços;
@@ -32,52 +30,34 @@ Entre as variáveis exploradas estão informações relacionadas a:
 - Marcas;
 - Gênero dos produtos.
 
-Antes da construção das visualizações, foram calculadas estatísticas descritivas das principais variáveis numéricas para auxiliar na compreensão da distribuição dos dados.
+Antes da construção dos gráficos, foram calculadas estatísticas descritivas das principais variáveis numéricas para auxiliar na compreensão da distribuição dos dados.
 
-### 2. Análise Exploratória dos Dados
+### Análise Exploratória e Visualizações
 
-A análise exploratória foi realizada em Python utilizando **Pandas, Matplotlib e Seaborn**.
+Foram desenvolvidas sete visualizações utilizando **Matplotlib** e **Seaborn**, cada uma acompanhada de seu objetivo e da interpretação dos resultados:
 
-Foram desenvolvidas sete visualizações para investigar diferentes características do conjunto de dados:
+| Visualização | Objetivo |
+|---|---|
+| Histograma das notas | Explorar a distribuição das notas dos produtos. |
+| Dispersão entre número de avaliações e nota | Investigar a relação entre essas variáveis. |
+| Mapa de calor das correlações | Examinar as correlações entre as variáveis numéricas. |
+| Gráfico de barras das marcas | Identificar as marcas com maior quantidade de produtos na base. |
+| Gráfico de pizza por gênero | Visualizar a participação das categorias de gênero. |
+| Gráfico de densidade das notas | Examinar a concentração e a distribuição das notas. |
+| Gráfico de regressão entre preço e nota | Investigar a relação linear entre preço e nota. |
 
-- Histograma das notas dos produtos;
-- Gráfico de dispersão entre número de avaliações e nota;
-- Mapa de calor das correlações;
-- Gráfico de barras das marcas com maior quantidade de produtos;
-- Gráfico de pizza da distribuição dos produtos por gênero;
-- Gráfico de densidade das notas;
-- Gráfico de regressão entre preço e nota.
+### Desenvolvimento do Dashboard
 
-Cada visualização foi acompanhada de seu objetivo e da interpretação dos resultados encontrados.
+Os indicadores e as visualizações da análise exploratória foram reunidos em um dashboard desenvolvido com **Dash, Plotly, Pandas e NumPy**.
 
-### 3. Análise dos Resultados
-
-A exploração dos dados permitiu identificar diferentes características do conjunto analisado.
-
-As notas dos produtos apresentaram média de aproximadamente **4,48**, com maior concentração das avaliações em valores elevados.
-
-O mapa de calor mostrou uma correlação de **0,91 entre o número de avaliações e a quantidade vendida**, indicando uma forte relação entre essas duas variáveis.
-
-Por outro lado, foram observadas correlações baixas entre preço, nota e desconto. A análise de regressão entre preço e nota também apresentou uma tendência pouco acentuada, indicando baixa relação linear entre essas variáveis.
-
-Na análise das marcas, a **Lupo** apresentou a maior quantidade de produtos entre as marcas presentes no conjunto de dados.
-
-A distribuição por gênero mostrou maior participação das categorias **Masculino** e **Feminino**, enquanto as demais categorias apresentaram menor representatividade.
-
-### 4. Desenvolvimento do Dashboard
-
-Após a análise exploratória, os resultados foram utilizados na construção de um dashboard desenvolvido em Python com **Dash, Plotly, Pandas e NumPy**.
-
-O dashboard reúne quatro indicadores principais:
+A aplicação apresenta quatro indicadores principais:
 
 - Total de produtos;
 - Nota média;
 - Preço médio;
 - Desconto médio.
 
-As visualizações da análise exploratória também foram recriadas utilizando Plotly e organizadas em uma interface web.
-
-O dashboard apresenta:
+As sete visualizações foram recriadas com **Plotly** e organizadas em uma interface web:
 
 - Distribuição das notas dos produtos;
 - Relação entre número de avaliações e nota;
@@ -87,58 +67,68 @@ O dashboard apresenta:
 - Densidade das notas;
 - Regressão entre preço e nota.
 
-Também foi adicionada uma seção dedicada aos principais resultados identificados durante a análise.
+Também foi adicionada uma seção com os principais resultados identificados durante a análise.
 
-### 5. Conclusões
+## Resultados
 
-A análise exploratória permitiu compreender características importantes dos produtos presentes no conjunto de dados.
+### Notas dos Produtos
 
-As visualizações mostraram uma concentração das avaliações em notas elevadas e uma forte relação entre o número de avaliações e a quantidade vendida.
+As notas apresentaram média de aproximadamente **4,48**, com maior concentração em valores elevados.
 
-Em contrapartida, o preço apresentou baixa relação com as notas dos produtos, indicando que produtos de maior valor não necessariamente apresentam avaliações superiores.
+### Relação entre Avaliações e Quantidade Vendida
 
-Também foi possível identificar as marcas com maior presença no conjunto de dados e analisar a distribuição dos produtos entre diferentes categorias de gênero.
+O mapa de calor mostrou uma correlação de **0,91 entre o número de avaliações e a quantidade vendida**, indicando uma forte relação positiva entre essas variáveis no conjunto analisado.
 
-A construção do dashboard permitiu reunir os indicadores e visualizações desenvolvidos durante a análise em uma aplicação web, facilitando a apresentação e exploração dos resultados.
+### Relações entre Preço, Nota e Desconto
+
+Foram observadas correlações baixas entre preço, nota e desconto.
+
+O gráfico de regressão entre preço e nota apresentou uma tendência pouco acentuada, indicando baixa relação linear entre essas variáveis. No conjunto analisado, preços mais altos não estiveram necessariamente associados a notas superiores.
+
+### Marcas e Categorias de Gênero
+
+A **Lupo** apresentou a maior quantidade de produtos entre as marcas presentes na base.
+
+As categorias **Masculino** e **Feminino** tiveram maior participação na distribuição dos produtos por gênero, enquanto as demais categorias apresentaram menor representatividade.
+
+### Apresentação dos Resultados
+
+O projeto resultou em um notebook com estatísticas descritivas, sete visualizações e suas interpretações, além de um dashboard com quatro indicadores e os gráficos da análise.
+
+A aplicação web reuniu esses resultados em uma interface organizada para apresentação e exploração dos dados.
 
 ## Habilidades Demonstradas
 
-- Análise de Dados
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-- Dash
-- Análise Exploratória de Dados (EDA)
-- Estatística Descritiva
-- Visualização de Dados
-- Análise de Correlação
-- Análise de Distribuição
-- Regressão Linear
-- Desenvolvimento de Dashboard
-- DataFrames
-- Interpretação de Dados
+- Análise de dados;
+- Python;
+- Pandas;
+- NumPy;
+- Matplotlib;
+- Seaborn;
+- Plotly;
+- Dash;
+- Análise exploratória de dados (EDA);
+- Estatística descritiva;
+- Visualização de dados;
+- Análise de correlação;
+- Análise de distribuição;
+- Regressão linear;
+- Desenvolvimento de dashboard;
+- DataFrames;
+- Interpretação de dados.
 
 ## Arquivos do Projeto
 
-Os arquivos do projeto estão organizados entre a base utilizada, o notebook de análise exploratória e a aplicação desenvolvida para apresentação das visualizações.
+Os arquivos estão organizados entre a base de dados, o notebook de análise exploratória e a aplicação do dashboard.
 
-### Notebook
+### [Notebook de Análise Exploratória](https://github.com/Jucastilla/dashboard-ecommerce-/blob/main/notebooks/analise_exploratoria.ipynb)
 
-📓 [Análise Exploratória de Dados](https://github.com/Jucastilla/dashboard-ecommerce-/blob/main/notebooks/analise_exploratoria.ipynb)
+Notebook contendo a exploração dos dados, as estatísticas descritivas, as visualizações e a interpretação dos resultados.
 
-Notebook contendo a exploração dos dados, estatísticas descritivas, desenvolvimento das visualizações e interpretação dos resultados.
-
-### Dashboard
-
-🐍 [Aplicação em Dash](https://github.com/Jucastilla/dashboard-ecommerce-/blob/main/app.py)
+### [Aplicação em Dash](https://github.com/Jucastilla/dashboard-ecommerce-/blob/main/app.py)
 
 Aplicação desenvolvida em Python com Dash e Plotly, reunindo os principais indicadores, gráficos e resultados da análise exploratória.
 
-### Dados
+### [Base de Dados do Projeto](https://github.com/Jucastilla/dashboard-ecommerce-/blob/main/data/ecommerce_estatistica.csv)
 
-📊 [Base de Dados do Projeto](https://github.com/Jucastilla/dashboard-ecommerce-/blob/main/data/ecommerce_estatistica.csv)
-
-Arquivo `ecommerce_estatistica.csv` utilizado como fonte de dados para o desenvolvimento da análise exploratória e do dashboard.
+Arquivo `ecommerce_estatistica.csv`, utilizado como fonte de dados para a análise exploratória e o dashboard.
